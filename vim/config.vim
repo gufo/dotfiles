@@ -2,6 +2,7 @@
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
+source ~/.vim/keymap.vim
 source ~/.vim/vundle.vim
 
 let g:CommandTMaxHeight=20

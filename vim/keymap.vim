@@ -1,3 +1,5 @@
+let mapleader = ","
+
 if has("gui_macvim")
   macmenu &File.new\ Tab key=<nop>
   map <D-t> :CommandT<CR>
