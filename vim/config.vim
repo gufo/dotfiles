@@ -17,3 +17,11 @@ autocmd BufReadPost *
   \   exe "normal! g`\"" |
   \ endif
 
+:colorscheme vividchalk
+
+if has("gui_running")
+    set guioptions=egmrt
+endif
+
+set fuopt+=maxhorz                      " grow to maximum horizontal width on entering fullscreen mode
+
