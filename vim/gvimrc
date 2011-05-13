@@ -5,3 +5,5 @@ if has("gui_macvim")
   macmenu &Tools.Make key=<nop>
   map <D-b> :CommandTBuffer<CR>
 endif
+
+set guifont=Monaco:h14
