@@ -5,6 +5,8 @@ set nocompatible
 source ~/.vim/keymap.vim
 source ~/.vim/vundle.vim
 
+source ~/.vim/plugin/*.vim
+
 let g:CommandTMaxHeight=20
 
 " For all text files set 'textwidth' to 78 characters.
@@ -25,4 +27,4 @@ if has("gui_running")
 endif
 
 set fuopt+=maxhorz                      " grow to maximum horizontal width on entering fullscreen mode
-
+exec AutoHighlightToggle()
