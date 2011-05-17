@@ -26,8 +26,6 @@ if has("gui_running")
     set guioptions=egmrt
 endif
 
-set fuopt+=maxhorz                      " grow to maximum horizontal width on entering fullscreen mode
-exec AutoHighlightToggle()
 set statusline=%{fugitive#statusline()}\ %<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
 
 "ruby
@@ -42,3 +40,7 @@ highlight Pmenu ctermbg=238 gui=bold
 filetype plugin on
 set ofu=syntaxcomplete#Complete
 
+set hlsearch
+
+" Trim all trailing whitespace when saving
+autocmd BufWritePre * :%s/\s\+$//e
