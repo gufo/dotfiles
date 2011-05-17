@@ -7,8 +7,8 @@ call vundle#rc()
 Bundle 'rails.vim'
 Bundle 'matchit.zip'
 Bundle 'fugitive.vim'
-"Bundle 'rubycomplete.vim' (will crash vim if combined with command-t - janko
-"2011-05-13)
+Bundle 'surround.vim'
+Bundle 'Tabular'
 
 " github repos
 Bundle 'ecomba/vim-ruby-refactoring'
