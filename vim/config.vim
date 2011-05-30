@@ -2,9 +2,9 @@
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
-source ~/.vim/keymap.vim
-source ~/.vim/vundle.vim
-
+source ~/.vim/config.d/vundle.vim
+source ~/.vim/config.d/keymap.vim
+source ~/.vim/config.d/plugins.vim
 source ~/.vim/plugin/*.vim
 
 let g:CommandTMaxHeight=20
@@ -20,7 +20,7 @@ autocmd BufReadPost *
   \   exe "normal! g`\"" |
   \ endif
 
-:colorscheme vividchalk
+colorscheme vividchalk
 
 if has("gui_running")
     set guioptions=egmrt
@@ -59,6 +59,9 @@ function! s:align()
     call search(repeat('[^|]*|',column).'\s\{-\}'.repeat('.',position),'ce',line('.'))
   endif
 endfunction
+
+" Indentation settings
+set shiftwidth=2
 
 set incsearch
 set ruler
