@@ -32,6 +32,7 @@ export EDITOR='mvim -f'
 alias fenix='cd ~/work/fenix/'
 alias birdy='cd ~/work/birdy/'
 alias cap='bundle exec cap'
+alias cucumber='bundle exec cucumber'
 
 alias gco='git checkout'
 alias gpo='git push origin'
