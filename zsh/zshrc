@@ -36,4 +36,6 @@ alias cucumber='bundle exec cucumber'
 
 alias gco='git checkout'
 alias gpo='git push origin'
-alias gcm='git checkout master'
+alias master='git checkout master'
+alias gro='git rebase origin'
+alias gfe='git fetch'
