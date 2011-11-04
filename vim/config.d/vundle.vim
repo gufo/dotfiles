@@ -17,6 +17,7 @@ Bundle 'vim-ruby/vim-ruby'
 Bundle 'ervandew/supertab'
 Bundle 'jsahlen/vim-ir_black'
 Bundle 'scrooloose/syntastic'
+Bundle 'pangloss/vim-javascript'
 
 Bundle 'git://git.wincent.com/command-t.git'
 
