@@ -10,6 +10,7 @@ Bundle 'fugitive.vim'
 Bundle 'surround.vim'
 Bundle 'Tabular'
 Bundle 'UltiSnips'
+Bundle 'specky'
 
 " github repos
 Bundle 'ecomba/vim-ruby-refactoring'
@@ -18,6 +19,7 @@ Bundle 'ervandew/supertab'
 Bundle 'jsahlen/vim-ir_black'
 Bundle 'scrooloose/syntastic'
 Bundle 'pangloss/vim-javascript'
+Bundle 'tpope/vim-rails'
 
 Bundle 'git://git.wincent.com/command-t.git'
 
