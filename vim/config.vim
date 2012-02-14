@@ -9,6 +9,8 @@ source ~/.vim/plugin/*.vim
 
 let g:CommandTMaxHeight=20
 
+set number
+
 " For all text files set 'textwidth' to 78 characters.
 autocmd FileType text setlocal textwidth=78
 
