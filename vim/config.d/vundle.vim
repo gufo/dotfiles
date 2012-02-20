@@ -8,7 +8,6 @@ Bundle 'matchit.vim'
 Bundle 'fugitive.vim'
 Bundle 'surround.vim'
 Bundle 'Tabular'
-Bundle 'UltiSnips'
 
 " github repos
 Bundle 'ecomba/vim-ruby-refactoring'
@@ -26,5 +25,6 @@ Bundle 'ecomba/vim-ruby-refactoring'
 Bundle 'puppetlabs/puppet-syntax-vim'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'Shougo/neocomplcache'
+Bundle 'Shougo/neocomplcache-snippets-complete'
 
 filetype plugin indent on
