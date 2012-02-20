@@ -4,6 +4,9 @@ if has("gui_macvim")
 
 	macmenu &File.Print key=<nop>
 	map <D-p> :CtrlP<CR>
+
+	" Mouse clicks can sometimes cause my particular MacVim setup to hang.
+	noremap <LeftMouse> <nop>
 endif
 
 set guifont=Menlo\ for\ Powerline:h12
