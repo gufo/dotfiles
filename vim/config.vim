@@ -5,9 +5,9 @@ set nocompatible
 source ~/.vim/config.d/vundle.vim
 source ~/.vim/config.d/keymap.vim
 source ~/.vim/config.d/plugins.vim
-source ~/.vim/plugin/*.vim
 
 set number
+set nowrap
 
 " For all text files set 'textwidth' to 78 characters.
 autocmd FileType text setlocal textwidth=78
@@ -36,15 +36,21 @@ autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
 "improve autocomplete menu color
 highlight Pmenu ctermbg=238 gui=bold
 
-" Use omnicomplete
-filetype plugin on
-set ofu=syntaxcomplete#Complete
+" neocomplcache
+let g:neocomplcache_enable_at_startup = 1
+inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 
 set hlsearch
+
+" Powerline
+let g:Powerline_symbols = 'fancy'
+set laststatus=2
 
 " Trim all trailing whitespace when saving
 autocmd BufWritePre * :%s/\s\+$//e
 
+" Ignore files in certain hidden folders (CtrlP et al.)
+set wildignore+=*/.jhw-cache/*,*/.idea/*,*/tmp/*
 
 " Auto-Tabularize, stolen from http://vimcasts.org/episodes/aligning-text-with-tabular-vim/
 inoremap <silent> <Bar>   <Bar><Esc>:call <SID>align()<CR>a

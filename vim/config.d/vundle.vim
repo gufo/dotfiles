@@ -20,5 +20,6 @@ Bundle 'jsahlen/vim-ir_black'
 Bundle 'scrooloose/syntastic'
 Bundle 'pangloss/vim-javascript'
 Bundle 'tpope/vim-rails'
+Bundle 'kien/ctrlp.vim'
 
 filetype plugin indent on
