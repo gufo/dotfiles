@@ -49,6 +49,10 @@ set laststatus=2
 " Trim all trailing whitespace when saving
 autocmd BufWritePre * :%s/\s\+$//e
 
+" Set a subtle red background on line overlength
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%101v.\+/
+
 " Ignore files in certain hidden folders (CtrlP et al.)
 set wildignore+=*/.jhw-cache/*,*/.idea/*,*/tmp/*
 
