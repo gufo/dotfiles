@@ -21,6 +21,4 @@ Bundle 'scrooloose/syntastic'
 Bundle 'pangloss/vim-javascript'
 Bundle 'tpope/vim-rails'
 
-Bundle 'git://git.wincent.com/command-t.git'
-
 filetype plugin indent on

@@ -7,8 +7,6 @@ source ~/.vim/config.d/keymap.vim
 source ~/.vim/config.d/plugins.vim
 source ~/.vim/plugin/*.vim
 
-let g:CommandTMaxHeight=20
-
 set number
 
 " For all text files set 'textwidth' to 78 characters.
