@@ -4,7 +4,6 @@ set rtp+=~/.vim/vundle.git/
 call vundle#rc()
 
 " vim-scripts repos
-Bundle 'rails.vim'
 Bundle 'matchit.zip'
 Bundle 'fugitive.vim'
 Bundle 'surround.vim'
