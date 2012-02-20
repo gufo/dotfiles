@@ -19,5 +19,11 @@ Bundle 'pangloss/vim-javascript'
 Bundle 'tpope/vim-rails'
 Bundle 'mileszs/ack.vim'
 Bundle 'kien/ctrlp.vim'
+Bundle 'ddollar/nerdcommenter'
+Bundle 'scrooloose/nerdtree'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'ecomba/vim-ruby-refactoring'
+Bundle 'puppetlabs/puppet-syntax-vim'
+Bundle 'Lokaltog/vim-powerline'
 
 filetype plugin indent on
