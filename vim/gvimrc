@@ -6,4 +6,6 @@ if has("gui_macvim")
 	map <D-p> :CtrlP<CR>
 endif
 
-set guifont=Monaco:h14
+set guifont=Menlo\ for\ Powerline:h12
+set guioptions-=r " No right-hand scrollbar
+set transparency=15
