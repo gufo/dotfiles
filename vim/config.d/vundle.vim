@@ -13,7 +13,6 @@ Bundle 'UltiSnips'
 " github repos
 Bundle 'ecomba/vim-ruby-refactoring'
 Bundle 'vim-ruby/vim-ruby'
-Bundle 'ervandew/supertab'
 Bundle 'jsahlen/vim-ir_black'
 Bundle 'scrooloose/syntastic'
 Bundle 'pangloss/vim-javascript'
