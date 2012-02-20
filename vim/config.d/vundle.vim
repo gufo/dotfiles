@@ -25,5 +25,6 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'ecomba/vim-ruby-refactoring'
 Bundle 'puppetlabs/puppet-syntax-vim'
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'Shougo/neocomplcache'
 
 filetype plugin indent on
