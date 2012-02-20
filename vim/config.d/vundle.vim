@@ -9,7 +9,6 @@ Bundle 'fugitive.vim'
 Bundle 'surround.vim'
 Bundle 'Tabular'
 Bundle 'UltiSnips'
-Bundle 'specky'
 
 " github repos
 Bundle 'ecomba/vim-ruby-refactoring'
