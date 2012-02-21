@@ -25,7 +25,7 @@ Bundle 'ecomba/vim-ruby-refactoring'
 Bundle 'puppetlabs/puppet-syntax-vim'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'Shougo/neocomplcache'
-Bundle 'Shougo/neocomplcache-snippets-complete'
 Bundle 'tpope/endwise'
+Bundle 'sirver/ultisnips'
 
 filetype plugin indent on
