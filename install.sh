@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-ln -sf ~/.vimrc ~/dotfiles/vim/config.vim
-ln -sf ~/.gvimrc ~/dotfiles/vim/gvimrc
-ln -sf ~/.zshrc ~/dotfiles/zsh/zshrc
-ln -sf ~/.ackrc ~/dotfiles/ackrc
+ln -sf ~/dotfiles/vim/config.vim ~/.vimrc
+ln -sf ~/dotfiles/vim/gvimrc ~/.gvimrc
+ln -sf ~/dotfiles/zsh/zshrc ~/.zshrc
+ln -sf ~/dotfiles/ackrc ~/.ackrc
