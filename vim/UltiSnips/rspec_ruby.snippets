@@ -1,0 +1,37 @@
+snippet it "it does something" b
+it "${1:does something}"
+endsnippet
+
+snippet desc "describe" b
+describe "${1:something}" do
+  ${2}
+end
+endsnippet
+
+snippet be "before each" b
+before(:each) { ${1} }
+endsnippet
+
+snippet bee "before each do" b
+before(:each) do
+  ${1}
+end
+endsnippet
+
+snippet cont "context" b
+context "${1}" do
+  ${2}
+end
+endsnippet
+
+snippet let "let" b
+let(:${1:variable}) { ${2} }
+endsnippet
+
+snippet shr "should_receive" w
+should_receive(:${1})
+endsnippet
+
+snippet andr "and_return" w
+and_return(${1}
+endsnippet
