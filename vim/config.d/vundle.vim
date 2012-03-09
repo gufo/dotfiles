@@ -26,5 +26,6 @@ Bundle 'puppetlabs/puppet-syntax-vim'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'tpope/endwise'
 Bundle 'sirver/ultisnips'
+Bundle 'gufo/Vim-Tomorrow-Theme'
 
 filetype plugin indent on

@@ -21,7 +21,7 @@ autocmd BufReadPost *
   \   exe "normal! g`\"" |
   \ endif
 
-colorscheme vividchalk
+colorscheme Tomorrow-Night-Bright
 
 if has("gui_running")
     set guioptions=egmrt
