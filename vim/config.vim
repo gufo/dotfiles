@@ -67,6 +67,8 @@ endfunction
 
 " Indentation settings
 set shiftwidth=2
+set tabstop=2
+set expandtab
 
 set incsearch
 set ruler
