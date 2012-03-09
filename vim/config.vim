@@ -9,6 +9,9 @@ source ~/.vim/config.d/plugins.vim
 
 set number
 set nowrap
+set autoread
+set incsearch
+set ruler
 
 " For all text files set 'textwidth' to 78 characters.
 autocmd FileType text setlocal textwidth=78
@@ -70,5 +73,3 @@ set shiftwidth=2
 set tabstop=2
 set expandtab
 
-set incsearch
-set ruler
