@@ -2,6 +2,7 @@
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
+source ~/.vim/config.d/ctrlp.vim
 source ~/.vim/config.d/vundle.vim
 source ~/.vim/config.d/keymap.vim
 source ~/.vim/config.d/plugins.vim
