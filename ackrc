@@ -7,3 +7,5 @@
 --type-set=gherkin=.feature
 --type-set=config=.ini,.cfg,.config
 
+# Ignored directories
+--ignore-dir=tmp
