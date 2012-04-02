@@ -3,6 +3,9 @@ filetype off
 set rtp+=~/.vim/vundle.git/
 call vundle#rc()
 
+" Let vundle manage itself
+Bundle 'gmarik/vundle'
+
 " vim-scripts repos
 Bundle 'matchit.vim'
 Bundle 'fugitive.vim'
