@@ -28,10 +28,22 @@ snippet let "let" b
 let(:${1:variable}) { ${2} }
 endsnippet
 
+snippet asn "as_null_object" b
+as_null_object${1}
+endsnippet
+
 snippet shr "should_receive" w
 should_receive(:${1})
 endsnippet
 
+snippet shnr "should_not_receive" w
+should_not_receive(:${1})
+endsnippet
+
 snippet andr "and_return" w
 and_return(${1}
+endsnippet
+
+snippet shs "should have_selector" w
+should have_selector('${1}')
 endsnippet
