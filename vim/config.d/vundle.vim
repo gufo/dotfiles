@@ -29,6 +29,7 @@ Bundle 'Lokaltog/vim-powerline'
 Bundle 'tpope/endwise'
 Bundle 'sirver/ultisnips'
 Bundle 'gufo/Vim-Tomorrow-Theme'
+Bundle 'craigemery/dotFiles/blob/master/vim/plugin/autotag.vim'
 Bundle 'wincent/Command-T'
 
 filetype plugin indent on
