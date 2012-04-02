@@ -2,9 +2,9 @@
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
-source ~/.vim/config.d/vundle.vim
-source ~/.vim/config.d/keymap.vim
-source ~/.vim/config.d/ultisnips.vim
+source ~/.vim/vundle.vim
+source ~/.vim/keymap.vim
+source ~/.vim/ultisnips.vim
 
 set number
 set nowrap
