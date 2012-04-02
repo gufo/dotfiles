@@ -3,7 +3,7 @@ if has("gui_macvim")
 	map <D-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
 
 	macmenu &File.Print key=<nop>
-	map <D-p> :CtrlP<CR>
+	map <D-p> :CommandT<CR>
 endif
 
 set guifont=Menlo\ for\ Powerline:h12
