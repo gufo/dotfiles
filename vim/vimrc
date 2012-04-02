@@ -4,6 +4,7 @@ set nocompatible
 
 source ~/.vim/config.d/vundle.vim
 source ~/.vim/config.d/keymap.vim
+source ~/.vim/config.d/ultisnips.vim
 
 set number
 set nowrap
