@@ -1,9 +1,13 @@
 if has("gui_macvim")
-	" Alt-] = open definition of current term in vertical split
-	map <D-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
+  " Alt-] = open definition of current term in vertical split
+  map <D-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
 
-	macmenu &File.Print key=<nop>
-	map <D-p> :CommandT<CR>
+  macmenu &File.Print key=<nop>
+  map <D-p> :CommandT<CR>
+
+  " Close all except the current buffer
+  macmenu &File.Close\ Window key=<nop>
+  map <D-W> :tabo <CR>:on<CR>
 endif
 
 set guifont=Menlo\ for\ Powerline:h12
