@@ -46,3 +46,5 @@ alias master='git checkout master'
 alias gro='git rebase origin'
 alias gri='git rebase --interactive'
 alias gfe='git fetch'
+
+alias reset_fenix='rake db:mongoid:drop db:migrate:reset db:test:prepare && rake db:seed import:companies:interesting solr:reset solr:update_app_buckets index --trace'
