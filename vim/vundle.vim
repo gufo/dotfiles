@@ -7,7 +7,7 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 " vim-scripts repos
-Bundle 'matchit.vim'
+Bundle 'matchit.zip'
 Bundle 'fugitive.vim'
 Bundle 'surround.vim'
 Bundle 'Tabular'
