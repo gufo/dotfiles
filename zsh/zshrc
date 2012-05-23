@@ -48,3 +48,5 @@ alias gri='git rebase --interactive'
 alias gfe='git fetch'
 
 alias reset_fenix='rake db:mongoid:drop db:migrate:reset db:test:prepare && rake db:seed import:companies:interesting solr:reset solr:update_app_buckets index --trace'
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
