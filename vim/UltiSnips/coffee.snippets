@@ -1,3 +1,19 @@
 snippet cl "console.log()" b
 console.log $0
 endsnippet
+
+snippet desc "Jasmine describe" b
+describe "$0", ->
+endsnippet
+
+snippet it "Jasmine it" b
+it "$0", ->
+endsnippet
+
+snippet ae "afterEach()" b
+afterEach -> $0
+endsnippet
+
+snippet be "beforeEach()" b
+beforeEach -> $0
+endsnippet
