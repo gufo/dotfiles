@@ -31,5 +31,6 @@ Bundle 'SirVer/ultisnips'
 Bundle 'chriskempson/vim-tomorrow-theme'
 Bundle 'AutoTag'
 Bundle 'wincent/Command-T'
+Bundle 'ap/vim-css-color'
 
 filetype plugin indent on
