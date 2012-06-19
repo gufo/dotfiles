@@ -13,3 +13,5 @@ endif
 set guifont=Menlo\ for\ Powerline:h12
 set guioptions-=r " No right-hand scrollbar
 set transparency=0
+
+set fullscreen
