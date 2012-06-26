@@ -31,3 +31,6 @@
   added = yellow
   changed = green
   untracked = cyan
+
+[pretty]
+	compact = format:%Cblue%h%Creset %cr %C(bold black)%an%Cgreen%d%Creset %s
