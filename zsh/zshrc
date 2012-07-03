@@ -53,7 +53,7 @@ alias master='git checkout master'
 alias gro='git rebase @{upstream}'
 alias gri='git rebase --interactive --autosquash'
 alias gfe='git fetch'
-alias publish-branch='git push -u @{upstream}'
+alias publish-branch='git push -u origin `git name-rev HEAD 2> /dev/null | awk "{ print \\$2 }"`'
 
 alias reset_fenix='rake db:mongoid:drop db:migrate:reset db:test:prepare && rake db:seed import:companies:interesting solr:reset solr:update_app_buckets index --trace'
 
