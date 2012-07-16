@@ -5,7 +5,6 @@ set nocompatible
 source ~/.vim/vundle.vim
 source ~/.vim/keymap.vim
 source ~/.vim/ultisnips.vim
-source ~/.vim/neocomplcache.vim
 source ~/.vim/command-t.vim
 
 set number

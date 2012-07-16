@@ -15,7 +15,6 @@ Bundle 'surround.vim'
 " github repos
 Bundle 'AutoTag'
 Bundle 'Lokaltog/vim-powerline'
-Bundle 'Shougo/neocomplcache'
 Bundle 'SirVer/ultisnips'
 Bundle 'ap/vim-css-color'
 Bundle 'chriskempson/vim-tomorrow-theme'
