@@ -29,7 +29,7 @@ unsetopt correct_all
 export PATH=~/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin
 [[ -s "/Users/janko/.rvm/scripts/rvm" ]] && source "/Users/janko/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
-export EDITOR='mvim -f'
+export EDITOR='subl -w'
 
 alias fenix='cd ~/work/fenix/'
 alias birdy='cd ~/work/birdy/'
