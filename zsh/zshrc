@@ -60,4 +60,9 @@ alias publish-branch='git push -u origin `git name-rev HEAD 2> /dev/null | awk "
 
 alias reset_fenix='rake db:mongoid:drop db:migrate:reset db:test:prepare && rake db:seed import:companies:interesting solr:reset solr:update_app_buckets index --trace'
 
+# Every once in a while, an Exchange-connected Apple Mail will crap out completely, refusing to
+# place windows on an actual screen and insisting that all links should open in iTerm2.
+# The only known way to "fix" this is by deleting the app's preferences.
+alias reset_mail_prefs='rm -rf ~/Library/Mail ~/Library/Mail\ Downloads ~/Library/Application\ Support/Mail ~/Library/Caches/Mail ~/Library/Caches/com.apple.mail ~/Library/Preferences/com.apple.mail.plist* ~/Library/Saved\ Application\ State/com.apple.mail.savedState'
+
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
