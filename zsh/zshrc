@@ -3,7 +3,7 @@ export ZSH=$HOME/.oh-my-zsh
 
 # Set to the name theme to load.
 # Look in ~/.oh-my-zsh/themes/
-export ZSH_THEME="robbyrussell"
+export ZSH_THEME="agnoster"
 
 # Set to this to use case-sensitive completion
 # export CASE_SENSITIVE="true"
@@ -21,6 +21,8 @@ export ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(rails git)
 
+export DEFAULT_USER="janko"
+
 # Oh My Zsh!
 source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
@@ -29,7 +31,7 @@ unsetopt correct_all
 export PATH=~/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin
 [[ -s "/Users/janko/.rvm/scripts/rvm" ]] && source "/Users/janko/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
-export EDITOR='subl -w'
+export EDITOR='mvim -f'
 
 alias fenix='cd ~/work/fenix/'
 alias birdy='cd ~/work/birdy/'
@@ -46,9 +48,9 @@ alias rails='bundle exec rails'
 alias u='git status -bs'
 alias d='git diff'
 alias a='git add'
-alias gl='git log --pretty=compact --graph --color --first-parent @{upstream}..HEAD'
-alias glm='git log --pretty=compact --graph --color --first-parent origin/master..HEAD'
-alias glp='git log --pretty=compact --graph --color --first-parent origin/production..origin/master'
+alias gl='git log --pretty=compact --graph --color --first-parent @{upstream}...HEAD'
+alias glm='git log --pretty=compact --graph --color --first-parent origin/master...HEAD'
+alias glp='git log --pretty=compact --graph --color --first-parent origin/production...origin/master'
 alias gco='git checkout'
 alias gpo='git push origin'
 alias master='git checkout master'
