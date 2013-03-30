@@ -11,11 +11,11 @@
 //             (contrib by Elias Näslund)
 // 2006-10-13, first version
 
-partial default alphanumeric_keys 
+partial default alphanumeric_keys
 xkb_symbols "basic" {
     include "us(dvorak)"
-    include "se_sv_dvorak(dvorak_intl)"
-    include "se_sv_dvorak(sv_dvorak)"
+    include "sv_dvorak(dvorak_intl)"
+    include "sv_dvorak(sv_dvorak)"
 };
 
 // Picked from xfree86.org: xc/programs/xkbcomp/symbols/pc/dvorak_intl (rev=1.1)
