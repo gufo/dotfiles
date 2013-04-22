@@ -1,0 +1,5 @@
+! Support se_sv_dvorak on US Apple keyboards.
+! The US keyboards have one key less than international ones;
+! I'm using CapsLock instead.
+remove Lock = Caps_Lock
+keysym Caps_Lock = odiaeresis Odiaeresis dead_diaeresis dead_belowdot

@@ -7,11 +7,14 @@ if has("gui_macvim")
 
   " Close all except the current buffer
   macmenu &File.Close\ Window key=<nop>
-  map <D-W> :tabnew <CR>:tabo <CR>
+  map <D-W> :tabo <CR>:on<CR>
+
+  set guifont=Menlo\ for\ Powerline:h12
+  set fullscreen
+elseif has("gui_gtk2")
+  set guifont=Menlo\ for\ Powerline 12
 endif
 
-set guifont=Menlo\ for\ Powerline:h12
 set guioptions-=r " No right-hand scrollbar
 set transparency=0
 
-set fullscreen
