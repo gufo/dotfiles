@@ -11,6 +11,7 @@ Bundle 'Tabular'
 Bundle 'fugitive.vim'
 Bundle 'matchit.zip'
 Bundle 'surround.vim'
+Bundle 'Align'
 
 " github repos
 Bundle 'AutoTag'
