@@ -9,7 +9,7 @@
   commit = commit --verbose
 
 [core]
-	excludesfile = /home/janko/dotfiles/.gitignore
+	excludesfile = /Users/janko/dotfiles/.gitignore
 
 [color]
   branch = auto
