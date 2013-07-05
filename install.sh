@@ -1,8 +1,11 @@
 #!/bin/zsh
 
+mkdir -p ~/.config
+
 ln -sf ~/dotfiles/vim/vimrc ~/.vimrc
 ln -sf ~/dotfiles/vim ~/.vim
 ln -sf ~/dotfiles/vim/gvimrc ~/.gvimrc
+ln -sf ~/dotfiles/vim/powerline ~/.config/powerline
 ln -sf ~/dotfiles/zsh/zshrc ~/.zshrc
 ln -sf ~/dotfiles/zsh/oh-my-zsh ~/.oh-my-zsh
 ln -sf ~/dotfiles/ackrc ~/.ackrc
