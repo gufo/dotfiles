@@ -12,7 +12,6 @@ set nowrap
 set autoread
 set incsearch
 set ruler
-set relativenumber
 
 " For all text files set 'textwidth' to 78 characters.
 autocmd FileType text setlocal textwidth=78
