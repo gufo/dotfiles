@@ -35,6 +35,7 @@ export EDITOR='mvim -f'
 
 alias fenix='cd ~/work/fenix/'
 alias birdy='cd ~/work/birdy/'
+alias dr='cd ~/work/fordonsportalen/dr/'
 
 alias be='bundle exec'
 alias cap='bundle exec cap'
