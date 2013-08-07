@@ -3,3 +3,4 @@ vim/.netrwhist
 .*.swp
 .tags
 .tags_sorted_
+.DS_Store
