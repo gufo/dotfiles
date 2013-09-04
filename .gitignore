@@ -4,3 +4,6 @@ vim/.netrwhist
 .tags
 .tags_sorted_
 .DS_Store
+
+# Cucumber
+/rerun.txt
