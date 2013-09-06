@@ -2,6 +2,9 @@
 	email = janko@luin.se
 	name = Janko Luin
 
+[init]
+  templatedir = ~/dotfiles/git_template
+
 [push]
 	default = tracking
 
@@ -9,7 +12,7 @@
   commit = commit --verbose
 
 [core]
-	excludesfile = /Users/janko/dotfiles/.gitignore
+	excludesfile = ~/dotfiles/.gitignore
 
 [color]
   branch = auto
