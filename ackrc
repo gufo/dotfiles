@@ -7,6 +7,10 @@
 --type-set=haml=.haml
 --type-set=gherkin=.feature
 --type-set=config=.ini,.cfg,.config
+--type-set=log=.log
 
 # Ignored directories
 --ignore-dir=tmp
+
+# Ignored file types
+--nolog
