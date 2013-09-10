@@ -3,6 +3,7 @@ vim/.netrwhist
 .*.swp
 .tags
 .tags_sorted_
+/tags
 .DS_Store
 
 # Cucumber
