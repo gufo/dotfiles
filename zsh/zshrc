@@ -46,6 +46,7 @@ alias egs='RAILS_ENV=test bundle exec evergreen serve'
 alias rails='bundle exec rake'
 alias rails='bundle exec rails'
 
+# git aliases
 alias u='git status -bs'
 alias d='git diff'
 alias a='git add'
@@ -60,6 +61,17 @@ alias gri='git rebase --interactive --autosquash'
 alias gfe='git fetch'
 alias ff='git merge --ff-only'
 alias publish-branch='git push -u origin `git name-rev HEAD 2> /dev/null | awk "{ print \\$2 }"`'
+
+# hg aliases
+alias hs='hg status'
+alias hd='hg diff'
+alias hca='hg commit'
+alias hl='hg log --no-merges --style ~/dotfiles/hg/map-cmdline.slog | less'
+alias hld='hg log --no-merges --style ~/dotfiles/hg/map-cmdline.slog default..tip | less'
+alias hco='hg checkout'
+alias hpo='hg push'
+alias hgr='hg pull --rebase'
+alias hgu='hg pull --update'
 
 alias reset_fenix='rake db:mongoid:drop db:migrate:reset db:test:prepare && rake db:seed import:companies:interesting solr:reset solr:update_app_buckets index --trace'
 
