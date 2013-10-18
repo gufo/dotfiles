@@ -17,6 +17,7 @@ Bundle 'Align'
 Bundle 'AutoTag'
 Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Bundle 'SirVer/ultisnips'
+Bundle 'airblade/vim-gitgutter'
 Bundle 'ap/vim-css-color'
 Bundle 'chriskempson/vim-tomorrow-theme'
 Bundle 'ddollar/nerdcommenter'
