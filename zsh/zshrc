@@ -71,10 +71,5 @@ alias hgr='hg pull --rebase'
 alias hgu='hg pull --update'
 alias hre='hg revert --no-backup'
 
-# Every once in a while, an Exchange-connected Apple Mail will crap out completely, refusing to
-# place windows on an actual screen and insisting that all links should open in iTerm2.
-# The only known way to "fix" this is by deleting the app's preferences.
-alias reset_mail_prefs='rm -rf ~/Library/Mail ~/Library/Mail\ Downloads ~/Library/Application\ Support/Mail ~/Library/Caches/Mail ~/Library/Caches/com.apple.mail ~/Library/Preferences/com.apple.mail.plist* ~/Library/Saved\ Application\ State/com.apple.mail.savedState'
-
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 . ~/.zshrc.local
