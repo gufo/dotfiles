@@ -6,6 +6,7 @@ source ~/.vim/vundle.vim
 source ~/.vim/keymap.vim
 source ~/.vim/ultisnips.vim
 source ~/.vim/command-t.vim
+source ~/.vim/airline.vim
 
 set number
 set nowrap
