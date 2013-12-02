@@ -9,10 +9,10 @@ if has("gui_macvim")
   macmenu &File.Close\ Window key=<nop>
   map <D-W> :tabo <CR>:on<CR>
 
-  set guifont=Menlo\ for\ Powerline:h12
+  set guifont=Meslo\ LG\ L\ Regular\ for\ Powerline:h12
   set fullscreen
 elseif has("gui_gtk2")
-  set guifont=Menlo\ for\ Powerline 12
+  set guifont=Meslo\ LG\ L\ Regular\ for\ Powerline
 endif
 
 set guioptions-=r " No right-hand scrollbar
