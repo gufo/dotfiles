@@ -37,3 +37,6 @@
 
 [pretty]
 	compact = format:%Cblue%h%Creset %cr %C(bold black)%an%Cgreen%d%Creset %s
+
+[include]
+  path = ~/.gitconfig.local
