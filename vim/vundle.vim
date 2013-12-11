@@ -15,10 +15,10 @@ Bundle 'Align'
 
 " github repos
 Bundle 'AutoTag'
+Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Bundle 'SirVer/ultisnips'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'ap/vim-css-color'
-Bundle 'bling/vim-airline'
 Bundle 'chriskempson/vim-tomorrow-theme'
 Bundle 'ecomba/vim-ruby-refactoring'
 Bundle 'elzr/vim-json'
