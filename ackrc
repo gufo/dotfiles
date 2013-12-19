@@ -1,6 +1,7 @@
 # Type modifications
 --type-add=php=.inc
 --type-add=js=.coffee
+--type-add=html=.xhtml
 
 # Custom types
 --type-set=sass=.sass,.scss
