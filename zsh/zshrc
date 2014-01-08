@@ -33,43 +33,9 @@ export PATH=~/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr
 
 export EDITOR='mvim -f'
 
-alias be='bundle exec'
-alias cap='bundle exec cap'
-alias cucumber='bundle exec cucumber'
-alias guard='bundle exec guard'
-alias rspec='bundle exec rspec'
-alias egs='RAILS_ENV=test bundle exec evergreen serve'
-alias rails='bundle exec rake'
-alias rails='bundle exec rails'
-
-# git aliases
-alias u='git status -bs'
-alias d='git diff'
-alias a='git add'
-alias gl='git log --pretty=compact --graph --color --first-parent @{upstream}...HEAD'
-alias glm='git log --pretty=compact --graph --color --first-parent origin/master...HEAD'
-alias glp='git log --pretty=compact --graph --color --first-parent origin/production...origin/master'
-alias gco='git checkout'
-alias gpo='git push origin'
-alias master='git checkout master'
-alias gro='git rebase @{upstream}'
-alias gri='git rebase --interactive --autosquash'
-alias gfe='git fetch'
-alias ff='git merge --ff-only'
-alias publish-branch='git push -u origin `git name-rev HEAD 2> /dev/null | awk "{ print \\$2 }"`'
-
-# hg aliases
-alias hs='hg status'
-alias hd='hg diff'
-alias ha='hg add'
-alias hca='hg commit'
-alias hl='hg log --no-merges --style ~/dotfiles/hg/map-cmdline.slog | less'
-alias hld='hg log --no-merges --style ~/dotfiles/hg/map-cmdline.slog default..tip | less'
-alias hco='hg checkout'
-alias hpo='hg push'
-alias hgr='hg pull --rebase'
-alias hgu='hg pull --update'
-alias hre='hg revert --no-backup'
+source ~/dotfiles/zsh/ruby.zsh
+source ~/dotfiles/zsh/git.zsh
+source ~/dotfiles/zsh/hg.zsh
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 . ~/.zshrc.local
