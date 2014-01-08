@@ -36,6 +36,7 @@ export EDITOR='mvim -f'
 source ~/dotfiles/zsh/ruby.zsh
 source ~/dotfiles/zsh/git.zsh
 source ~/dotfiles/zsh/hg.zsh
+source ~/dotfiles/zsh/svn.zsh
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 . ~/.zshrc.local
