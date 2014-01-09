@@ -1,4 +1,5 @@
 alias sst='svn status'
+alias sup='svn up'
 alias sd='svn diff'
 alias sca='svn commit'
 alias sco='svn checkout'
