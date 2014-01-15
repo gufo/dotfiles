@@ -13,6 +13,7 @@
 # Ignored directories
 --ignore-dir=tmp
 --ignore-dir=exploded-archives
+--ignore-dir=target
 
 # Ignored file types
 --nolog
