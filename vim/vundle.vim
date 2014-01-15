@@ -35,6 +35,7 @@ Bundle 'tpope/vim-bundler'
 Bundle 'tpope/vim-endwise'
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-rvm'
+Bundle 'tpope/vim-speeddating'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'wincent/Command-T'
 
