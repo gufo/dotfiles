@@ -14,8 +14,8 @@ alias ff='git merge --ff-only'
 alias publish-branch='git push -u origin `git name-rev HEAD 2> /dev/null | awk "{ print \\$2 }"`'
 
 # git-svn aliases
-alias gsf='git svn fetch'
-alias gsp='git svn dcommit'
-alias gsr='git svn rebase'
-alias gsri='git rebase --interactive --autosquash remotes/git-svn'
+alias gfs='git svn fetch'
+alias gps='git svn dcommit'
+alias grs='git svn rebase'
+alias grsi='git rebase --interactive --autosquash remotes/git-svn'
 alias gls='git log --pretty=compact --graph --color --first-parent remotes/git-svn...HEAD'
