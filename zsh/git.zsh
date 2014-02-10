@@ -17,5 +17,5 @@ alias publish-branch='git push -u origin `git name-rev HEAD 2> /dev/null | awk "
 alias gfs='git svn fetch'
 alias gps='git svn dcommit'
 alias grs='git svn rebase'
-alias grsi='git rebase --interactive --autosquash remotes/git-svn'
-alias gls='git log --pretty=compact --graph --color --first-parent remotes/git-svn...HEAD'
+alias grsi='git rebase --interactive --autosquash remotes/trunk'
+alias gls='git log --pretty=compact --graph --color --first-parent remotes/trunk...HEAD'
