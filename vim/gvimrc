@@ -10,7 +10,9 @@ if has("gui_macvim")
   map <D-W> :tabo <CR>:on<CR>
 
   set guifont=Meslo\ LG\ L\ Regular\ for\ Powerline:h12
-  set fullscreen
+
+  " Avoid for now - MacVim 7.2 is buggy when running Lion-style fullscreen
+  "set fullscreen
 elseif has("gui_gtk2")
   set guifont=Meslo\ LG\ L\ Regular\ for\ Powerline
 endif
