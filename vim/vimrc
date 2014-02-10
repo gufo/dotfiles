@@ -60,7 +60,7 @@ highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%101v.\+/
 
 " Ignore files matching the given patterns (CtrlP/Command-T et al.)
-set wildignore+=*/.jhw-cache/*,*/.idea/*,*/tmp/*,tmp/*,log/*,vendor/*,target/*
+set wildignore+=*/.jhw-cache/*,*/.idea/*,*/tmp/*,tmp/*,log/*,vendor/*,target/*,node_modules/*,generated/*
 
 " Auto-Tabularize, stolen from http://vimcasts.org/episodes/aligning-text-with-tabular-vim/
 inoremap <silent> <Bar>   <Bar><Esc>:call <SID>align()<CR>a
