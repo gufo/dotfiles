@@ -43,6 +43,9 @@ let g:syntastic_haml_checkers = []
 
 command! FixRockets exec "%s/:\\([a-z_]\\+\\) => /\\1: /g"
 
+" External dependency: install with `sudo cpan JSON::XS`
+au FileType json command! -range=% -nargs=* Tidy <line1>,<line2>! json_xs -f json -t json-pretty
+
 "improve autocomplete menu color
 highlight Pmenu ctermbg=238 gui=bold
 
