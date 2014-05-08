@@ -9,6 +9,7 @@ Bundle 'gmarik/vundle'
 " vim-scripts repos
 Bundle 'Tabular'
 Bundle 'fugitive.vim'
+Bundle 'gitignore'
 Bundle 'matchit.zip'
 Bundle 'surround.vim'
 Bundle 'Align'
