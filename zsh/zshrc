@@ -25,6 +25,9 @@ alias get_current_desktop_picture="sqlite3 ~/Library/Application\ Support/Dock/d
 
 export DEFAULT_USER="janko"
 
+# Java: Read all files as UTF-8 (still in 2014, the Mac OS X default is "MacRoman"!)
+export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF-8
+
 # Oh My Zsh!
 source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
