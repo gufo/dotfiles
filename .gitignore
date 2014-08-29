@@ -6,5 +6,9 @@ vim/.netrwhist
 /tags
 .DS_Store
 
+# For those rare IntelliJ projects
+.idea
+**/*.iml
+
 # Cucumber
 /rerun.txt
