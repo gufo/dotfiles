@@ -1,0 +1,23 @@
+snippet < "erb tag" i
+<% ${1} %>
+endsnippet
+
+snippet = "output tag" i
+<%= ${1} %>
+endsnippet
+
+snippet t "translation" w
+<%= t "${1}" %>
+endsnippet
+
+snippet form_for "form_for" b
+<%= form_for ${1:object} do %>
+	${2}
+<% end %>
+endsnippet
+
+snippet form_tag "form_tag" b
+<%= form_tag ${1}_path${2:, } do %>
+	${3}
+<% end %>
+endsnippet
