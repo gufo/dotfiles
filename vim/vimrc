@@ -68,6 +68,9 @@ set wildignore+=*/.jhw-cache/*,*/.idea/*,*/tmp/*,tmp/*,log/*,target/*,node_modul
 " Auto-Tabularize, stolen from http://vimcasts.org/episodes/aligning-text-with-tabular-vim/
 inoremap <silent> <Bar>   <Bar><Esc>:call <SID>align()<CR>a
 
+" Underline the current line with dashes in normal mode
+nnoremap <leader>u yyp<c-v>$r=
+
 function! s:align()
   let p = '^\s*|\s.*\s|\s*$'
   if exists(':Tabularize') && getline('.') =~# '^\s*|' && (getline(line('.')-1) =~# p || getline(line('.')+1) =~# p)
