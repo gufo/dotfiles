@@ -5,6 +5,7 @@ vim/.netrwhist
 .tags_sorted_
 /tags
 .DS_Store
+/.lvimrc
 
 # For those rare IntelliJ projects
 .idea
