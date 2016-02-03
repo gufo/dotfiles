@@ -3,40 +3,40 @@
 	name = Janko Luin
 
 [init]
-  templatedir = ~/dotfiles/git_template
+	templatedir = ~/dotfiles/git_template
 
 [push]
 	default = tracking
 
 [alias]
-  commit = commit --verbose
+	commit = commit --verbose
 
 [core]
 	excludesfile = ~/dotfiles/.gitignore
 
 [color]
-  branch = auto
-  diff = auto
-  status = auto
+	branch = auto
+	diff = auto
+	status = auto
 
 [color "branch"]
-  current = yellow reverse
-  local = yellow
-  remote = green
+	current = yellow reverse
+	local = yellow
+	remote = green
 
 [color "diff"]
-  meta = yellow bold
-  frag = magenta bold
-  old = red bold
-  new = green bold
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
 
 [color "status"]
-  added = yellow
-  changed = green
-  untracked = cyan
+	added = yellow
+	changed = green
+	untracked = cyan
 
 [pretty]
 	compact = format:%Cblue%h%Creset %cr %C(bold black)%an%Cgreen%d%Creset %s
 
 [include]
-  path = ~/.gitconfig.local
+	path = ~/.gitconfig.local
