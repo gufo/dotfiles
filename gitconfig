@@ -8,6 +8,9 @@
 [push]
 	default = tracking
 
+[pull]
+	rebase = true
+
 [alias]
 	commit = commit --verbose
 
