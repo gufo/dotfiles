@@ -4,6 +4,7 @@ set nocompatible
 
 source ~/.vim/vundle.vim
 source ~/.vim/keymap.vim
+source ~/.vim/syntastic.vim
 source ~/.vim/ultisnips.vim
 source ~/.vim/command-t.vim
 source ~/.vim/localvimrc.vim
@@ -39,8 +40,6 @@ autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
 autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1
 autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
 autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
-let g:syntastic_ruby_exec = '~/.rvm/rubies/ruby-1.9.3-p194/bin/ruby'
-let g:syntastic_haml_checkers = []
 
 command! FixRockets exec "%s/:\\([a-z_]\\+\\) => /\\1: /g"
 
