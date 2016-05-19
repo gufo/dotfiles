@@ -9,7 +9,6 @@ ln -sf ~/dotfiles/vim/gvimrc ~/.gvimrc
 ln -sf ~/dotfiles/vim/powerline ~/.config/powerline
 ln -sf ~/dotfiles/zsh/zshrc ~/.zshrc
 ln -sf ~/dotfiles/zsh/oh-my-zsh ~/.oh-my-zsh
-ln -sf ~/dotfiles/ackrc ~/.ackrc
 ln -sf ~/dotfiles/gitconfig ~/.gitconfig
 
 if [ -d /usr/share/X11/xkb/symbols ]; then
