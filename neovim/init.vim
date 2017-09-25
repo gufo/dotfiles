@@ -1,0 +1,88 @@
+" Use Vim settings, rather than Vi settings (much better!).
+" This must be first, because it changes other options as a side effect.
+set nocompatible
+
+" source ~/.vim/vundle.vim
+source ~/.vim/keymap.vim
+source ~/.vim/syntastic.vim
+source ~/.vim/ultisnips.vim
+source ~/.vim/command-t.vim
+source ~/.vim/localvimrc.vim
+
+set number
+set nowrap
+set autoread
+set incsearch
+set ruler
+
+" For all text files set 'textwidth' to 78 characters.
+autocmd FileType text setlocal textwidth=78
+
+" Always keep 10 lines above/below the cursor.
+set scrolloff=10
+
+" When editing a file, always jump to the last known cursor position.
+" Don't do it when the position is invalid or when inside an event handler
+" (happens when dropping a file on gvim).
+autocmd BufReadPost *
+  \ if line("'\"") > 0 && line("'\"") <= line("$") |
+  \   exe "normal! g`\"" |
+  \ endif
+
+" colorscheme Tomorrow-Night-Bright
+
+if has("gui_running")
+    set guioptions=egmrt
+endif
+
+"ruby
+autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
+autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1
+autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
+autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
+
+command! FixRockets exec "%s/:\\([a-z_]\\+\\) => /\\1: /g"
+
+" External dependency: install with `sudo cpan JSON::XS`
+au FileType json command! -range=% -nargs=* Tidy <line1>,<line2>! json_xs -f json -t json-pretty
+
+"improve autocomplete menu color
+highlight Pmenu ctermbg=238 gui=bold
+
+set hlsearch
+
+" Powerline
+let g:Powerline_symbols = 'fancy'
+set laststatus=2
+
+" Trim all trailing whitespace when saving
+autocmd BufWritePre * :%s/\s\+$//e
+
+" Set a subtle red background on line overlength
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%101v.\+/
+
+" Ignore files matching the given patterns (CtrlP/Command-T et al.)
+set wildignore+=*/.jhw-cache/*,*/.idea/*,*/tmp/*,tmp/*,log/*,target/*,node_modules/*,generated/*
+
+" Auto-Tabularize, stolen from http://vimcasts.org/episodes/aligning-text-with-tabular-vim/
+inoremap <silent> <Bar>   <Bar><Esc>:call <SID>align()<CR>a
+
+" Underline the current line with dashes in normal mode
+nnoremap <leader>u yyp<c-v>$r=
+
+function! s:align()
+  let p = '^\s*|\s.*\s|\s*$'
+  if exists(':Tabularize') && getline('.') =~# '^\s*|' && (getline(line('.')-1) =~# p || getline(line('.')+1) =~# p)
+    let column = strlen(substitute(getline('.')[0:col('.')],'[^|]','','g'))
+    let position = strlen(matchstr(getline('.')[0:col('.')],'.*|\s*\zs.*'))
+    Tabularize/|/l1
+    normal! 0
+    call search(repeat('[^|]*|',column).'\s\{-\}'.repeat('.',position),'ce',line('.'))
+  endif
+endfunction
+
+" Indentation settings
+set shiftwidth=4
+set tabstop=4
+

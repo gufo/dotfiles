@@ -4,6 +4,7 @@ mkdir -p ~/.config
 
 echo "Symlinking..."
 ln -sf ~/dotfiles/vim/vimrc ~/.vimrc
+ln -sf ~/dotfiles/vim/vimrc ~/.nvimrc
 ln -sf ~/dotfiles/vim ~/.vim
 ln -sf ~/dotfiles/vim/gvimrc ~/.gvimrc
 ln -sf ~/dotfiles/vim/powerline ~/.config/powerline

@@ -1,0 +1,27 @@
+snippet desc "Jasmine describe" b
+describe("$1", function() {
+  $0
+});
+endsnippet
+
+snippet it "Jasmine example" b
+it("${1:does something}", function() {
+  $0
+});
+endsnippet
+
+snippet f "Anonymous function" i
+function(${1:arguments}) {
+  $0
+}$2
+endsnippet
+
+snippet be "Jasmine beforeEach()" b
+beforeEach(function() {
+  $0
+});
+endsnippet
+
+snippet cl "console.log()" b
+console.log($0);
+endsnippet
