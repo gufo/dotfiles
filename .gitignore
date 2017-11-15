@@ -1,5 +1,6 @@
 vim/bundle
 vim/.netrwhist
+neovim/.netrwhist
 .*.swp
 .tags
 .tags_sorted_
