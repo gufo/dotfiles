@@ -2,7 +2,7 @@
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
-" source ~/.vim/vundle.vim
+source ~/.vim/vundle.vim
 source ~/.vim/keymap.vim
 source ~/.vim/syntastic.vim
 source ~/.vim/ultisnips.vim

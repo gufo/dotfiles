@@ -1,7 +1,7 @@
 filetype off
 
 set rtp+=~/.vim/bundle/vundle
-call vundle#rc()
+call vundle#begin()
 
 " Let vundle manage itself
 Bundle 'gmarik/vundle'
