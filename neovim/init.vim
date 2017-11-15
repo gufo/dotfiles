@@ -6,7 +6,6 @@ set nocompatible
 source ~/.vim/keymap.vim
 source ~/.vim/syntastic.vim
 source ~/.vim/ultisnips.vim
-source ~/.vim/command-t.vim
 source ~/.vim/localvimrc.vim
 
 set number
