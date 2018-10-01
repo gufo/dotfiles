@@ -16,6 +16,7 @@
 
 [core]
 	excludesfile = ~/dotfiles/.gitignore
+	editor = code --wait
 
 [color]
 	branch = auto
