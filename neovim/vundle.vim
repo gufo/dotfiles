@@ -12,7 +12,7 @@ Bundle 'fugitive.vim'
 Bundle 'gitignore'
 Bundle 'matchit.zip'
 Bundle 'surround.vim'
-Bundle 'Align'
+Bundle 'vim-scripts/Align'
 
 " github repos
 Bundle 'AutoTag'
