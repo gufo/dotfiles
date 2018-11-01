@@ -23,6 +23,8 @@ plugins=(rails git zsh-syntax-highlighting)
 
 alias get_current_desktop_picture="sqlite3 ~/Library/Application\ Support/Dock/desktoppicture.db 'select * from data'"
 
+alias fastlane="bundle exec fastlane"
+
 export DEFAULT_USER="janko.luin"
 
 # Java: Read all files as UTF-8 (still in 2014, the Mac OS X default is "MacRoman"!)
