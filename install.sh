@@ -11,6 +11,7 @@ ln -sf ~/dotfiles/vim/powerline ~/.config/powerline
 ln -sf ~/dotfiles/zsh/zshrc ~/.zshrc
 ln -sf ~/dotfiles/zsh/oh-my-zsh ~/.oh-my-zsh
 ln -sf ~/dotfiles/gitconfig ~/.gitconfig
+ln -sf ~/dotfiles/fish ~/.config/fish
 
 if [ -d /usr/share/X11/xkb/symbols ]; then
   echo "X11 detected, attempting to add se_sv_dvorak keymap."
