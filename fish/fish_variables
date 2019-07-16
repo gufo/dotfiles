@@ -5,8 +5,13 @@ SETUVAR _fish_abbr_a:git\x20add
 SETUVAR _fish_abbr_d:git\x20diff
 SETUVAR _fish_abbr_gc:git\x20commit\x20\x2dv
 SETUVAR _fish_abbr_gca:git\x20commit\x20\x2dav
+SETUVAR _fish_abbr_gfe:git\x20fetch\x20\x2dp
+SETUVAR _fish_abbr_gl:git\x20log\x20\x2d\x2dpretty\x3dcompact\x20\x2d\x2dgraph\x20\x2d\x2dcolor\x20\x2d\x2dfirst\x2dparent\x20\x40\x7bupstream\x7d\x2e\x2e\x2eHEAD
 SETUVAR _fish_abbr_gpo:git\x20push\x20origin
-SETUVAR _fish_abbr_u:git\x20status
+SETUVAR _fish_abbr_gri:git\x20rebase\x20\x2d\x2dinteractive\x20\x2d\x2dautosquash
+SETUVAR _fish_abbr_master:git\x20checkout\x20master
+SETUVAR _fish_abbr_pushlish_2D_branch:git\x20push\x20\x2du\x20origin\x20\x60git\x20name\x2drev\x20HEAD\x202\x3e\x20/dev/null\x20\x7c\x20awk\x20\x22\x7b\x20print\x20\x5c\x242\x20\x7d\x22\x60
+SETUVAR _fish_abbr_u:git\x20status\x20\x2dbs
 SETUVAR fish_color_autosuggestion:969896
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:c397d8
