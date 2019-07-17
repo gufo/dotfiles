@@ -3,8 +3,10 @@
 SETUVAR __fish_init_2_3_0:\x1d
 SETUVAR _fish_abbr_a:git\x20add
 SETUVAR _fish_abbr_d:git\x20diff
+SETUVAR _fish_abbr_fastlane:bundle\x20exec\x20fastlane
 SETUVAR _fish_abbr_gc:git\x20commit\x20\x2dv
 SETUVAR _fish_abbr_gca:git\x20commit\x20\x2dav
+SETUVAR _fish_abbr_gco:git\x20checkout
 SETUVAR _fish_abbr_gfe:git\x20fetch\x20\x2dp
 SETUVAR _fish_abbr_gl:git\x20log\x20\x2d\x2dpretty\x3dcompact\x20\x2d\x2dgraph\x20\x2d\x2dcolor\x20\x2d\x2dfirst\x2dparent\x20\x40\x7bupstream\x7d\x2e\x2e\x2eHEAD
 SETUVAR _fish_abbr_gpo:git\x20push\x20origin
