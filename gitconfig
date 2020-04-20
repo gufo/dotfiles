@@ -12,7 +12,7 @@
 	commit = commit --verbose
 
 [core]
-	excludesfile = /Users/janko.luin/dotfiles/.gitignore
+	excludesfile = /Users/janko/dotfiles/.gitignore
 	editor = code --wait
 
 [color]
